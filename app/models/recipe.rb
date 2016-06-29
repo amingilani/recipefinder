@@ -1,3 +1,4 @@
+require 'httparty'
 class Recipe
   include HTTParty
   key_value = ENV['FOOD2FORK_KEY']
